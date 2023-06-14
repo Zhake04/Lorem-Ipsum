@@ -1,0 +1,127 @@
+
+body{
+    background: linear-gradient(143deg, rgba(252,172,21,1) 27%,
+     rgba(254,52,52,1) 73%);
+    font-family: 'Roboto';
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.Rectangle{
+    border-radius: 30px;
+    background: linear-gradient(143deg, rgb(238, 44, 44) 27%,
+     rgb(248, 111, 32) 73%);
+     width:200px;
+    position: absolute;
+    top: 50%;
+    left:50px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px rgb(255, 5, 5);
+    z-index: 1;
+}
+.Part1{
+    background-color: white;
+    border-radius: 35px;
+    position: absolute;
+    height:400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+
+.Data{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+
+
+}
+
+.Description{
+    width: 300px;
+    line-height: 20px;
+    margin-bottom: 30px;
+
+}
+.Button{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(143deg, rgba(252,172,21,1) 27%,
+     rgba(254,52,52,1) 73%);
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.Figures{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    align-items: center;
+}
+
+.tryangle{
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+.square{
+  border-radius: 25px;
+  height: 50px;
+  width: 25px;
+  background: linear-gradient(143deg, rgba(252,172,21,1) 27%,
+  rgba(254,52,52,1) 73%);
+  margin-top: 10px;
+}
+.circle{
+border-radius: 50%;;
+height: 25px;
+width: 25px;
+background-color: lightgrey;
+}
+
+.Part2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+
+}
+
+
+@media(max-width: 800px){
+    .Part1{
+        width: 300px;
+        height: 500px;
+    }
+
+    .Rectangle{
+        width: 150px;
+        height: 150px;
+        top: 5%;
+        left: 50%;
+    }
+
+    .Figures{
+        top: 80%;
+        right: 45%;
+        justify-content: center;
+        transform: rotate(90deg);
+
+    }
+
+    .Part2{
+        text-align: center;
+    }
+    
+}
